@@ -3,7 +3,7 @@ package OPP;
 import java.util.*;
 
 public class PhanSoBai2 {
-    PhanSo a, b;
+    private PhanSo a, b;
 
     public PhanSo nhap(String cauHai) {
         int t, m;

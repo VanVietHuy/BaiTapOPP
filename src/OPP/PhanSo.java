@@ -74,6 +74,7 @@ public class PhanSo {
         c.rutGon();
         return c;
     }
+
     public PhanSo thuong(PhanSo b) {
         PhanSo c = new PhanSo();
         c.tu = tu * b.mau;

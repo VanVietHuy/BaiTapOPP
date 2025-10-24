@@ -3,8 +3,9 @@ package OPP;
 import java.util.*;
 
 public class PhanSoBai3 {
-    PhanSo a, b;
-    char nhapPhepTinh;
+
+    private PhanSo a, b;
+    private char nhapPhepTinh;
     Scanner kb = new Scanner(System.in);
 
     public PhanSo nhap(String cauBa) {
@@ -22,8 +23,10 @@ public class PhanSoBai3 {
     void input() {
         a = nhap("Nhap phan so 1: ");
         b = nhap("Nhap phan so 2: ");
-        System.out.print("Nhap phep toan can tinh ( + , - , * , / ): ");
-        nhapPhepTinh = kb.next().charAt(0);
+        do {
+            System.out.print("Nhap phep toan can tinh ( + , - , * , / ): ");
+            nhapPhepTinh = kb.next().charAt(0);
+        } while (nhapPhepTinh == '+' && nhapPhepTinh == '-' && nhapPhepTinh == '*' && nhapPhepTinh == '/');
     }
 
     void output() {
@@ -38,11 +41,12 @@ public class PhanSoBai3 {
                 System.out.println("Tich = " + a + " * " + b + " = " + a.tich(b));
                 break;
             case '/':
-                if (b.getTu() == 0) System.out.println("Khong chia 0");
-                else System.out.println("Thuong = " + a + " / " + b + " = " + a.thuong(b));
-                break;
-            default:
-                System.out.println("Khong tinh");
+                if (b.getTu() == 0) {
+                    System.out.println("Khong chia 0");
+                } else {
+                    System.out.println("Thuong = " + a + " / " + b + " = " + a.thuong(b));
+                    break;
+                }
         }
     }
 
