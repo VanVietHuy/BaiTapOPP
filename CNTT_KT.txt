@@ -1,4 +1,4 @@
-sv001, Bao Cong, true, 8.9, 7.6, 7.0
+sv001, Bao Cong, true, 8.9, 9.2, 7.0
 sv002, Cong Ton Sach, true, 9.2, 8.6
 sv003, Hoang Thuong, true, 4.5, 5.6
 sv004, Ly Nuong Nuong, false, 5.6, 2.6, 4.9
