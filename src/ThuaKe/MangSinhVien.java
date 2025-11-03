@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MangSinhVien {
-    private ArrayList<SinhVien> a = new ArrayList<SinhVien>();
+    private ArrayList<SinhVien> a = new ArrayList<>();
 
     public void docFIle(String tenFile) {
         try {
@@ -25,7 +25,6 @@ public class MangSinhVien {
                         double html = Double.parseDouble(s[5].trim());
                         a.add(new CNTT(s[0], s[1], gT, mon1, mon2, html));
                     }
-
                 }
             } else {
                 System.out.println("File khong ton tai");
