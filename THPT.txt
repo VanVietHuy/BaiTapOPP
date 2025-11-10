@@ -1,0 +1,14 @@
+A001, Nguyen Van An, 15/05/2005, Nam, A, 9.0, 8.0, 8.5
+A002, Tran Thi Binh, 20/10/2005, Nu, D, 9.5, 9.0, 7.5
+D001, Le Van Cuong, 05/01/2005, Nam, D, 5.0, 8.5, 9.0
+D002, Pham Thi Dung, 12/12/2005, Nu, A, 9.5, 9.0, 9.5
+A003, Hoang Minh Tuan, 22/03/2005, Nam, A, 7.5, 8.0, 6.5
+A004, Nguyen Thi Lan, 14/07/2005, Nu, A, 8.5, 9.0, 8.0
+D003, Tran Van Kien, 30/09/2005, Nam, D, 6.0, 7.5, 8.5
+D004, Pham Thu Ha, 11/11/2005, Nu, D, 9.0, 8.5, 9.5
+A005, Le Quang Huy, 05/02/2005, Nam, A, 6.5, 7.0, 6.0
+A006, Doan Thi Mai, 19/08/2005, Nu, A, 9.5, 8.5, 9.0
+D005, Vu Tuan Anh, 25/12/2005, Nam, D, 8.0, 7.0, 8.5
+D006, Nguyen Ngoc Linh, 08/04/2005, Nu, D, 7.0, 9.0, 9.5
+A007, Tran Minh Duc, 17/06/2005, Nam, A, 8.0, 8.5, 8.0
+A008, Le Thi Thanh, 02/10/2005, Nu, A, 7.0, 6.5, 7.5
